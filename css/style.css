@@ -1,0 +1,18 @@
+.os{
+	background:red;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.hidde{
+	background:#00F;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.warning{
+	color:#F00;
+	font-size:50px;
+}

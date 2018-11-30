@@ -1,0 +1,302 @@
+*{box-sizing:border-box}
+.navbar{ min-height:70px }
+.navbar-right .dropdown-menu{ right:auto; left:0}
+.navbar-inverse .navbar-nav > li > a{
+	color:#BBB;
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:16px;
+}
+
+.navbar-inverse .navbar-brand{color:#BBB;font-size:30px;line-height:40px}
+.navbar-toggle{margin-top:18px}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{background:#E41B17}
+
+.dropdown-menu{background:#333;color:#FFF}
+
+/*color menu*/
+.dropdown-menu > li > a{color:#FFF;padding:6px 20px;transition:padding .5s ease}
+
+/* background Hover menu*/
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{padding-left:25px}
+ 
+.dropdown-menu .divider{background-color: #ab3f3f}
+
+.option-box .color-option,.dropdown-menu{border:3px solid #E41B17}
+
+
+.option-box  .gear-check,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active
+{
+	background:#d43f3a;	
+}
+
+.navbar-inverse .navbar-brand{color:#BBB;font-size:30px;line-height:40px;font-style:italic}
+
+
+/* Start Slider*/
+
+.carousel-caption{
+	bottom:15%;
+	background:rgba(4,4,4,.5);
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:4%;
+}
+.carousel-caption p{
+	line-height:1.6;
+	font-weight:bold;
+	font-style:italic;
+	font-size:20px;
+	font-family:Georgia
+}
+/* indicators*/
+.carousel-indicators li{width:15px;height:15px}
+
+/* indicators acrive*/
+.carousel-indicators .active{width:18px;height:18px;background:#E41B17}
+
+.carousel-inner .item  img{
+	width:100%;
+	height:80%;
+}
+/* End Slider*/
+/* Offering */
+
+.Offering {padding-top:40px;padding-bottom:40px}
+.Offering  .apart{
+	background:#FFF;
+	padding-top:30px;
+	border:2px solid #DDD;
+	margin-bottom:15px;
+	margin-top:20px;
+	
+}
+.Offering h2{font-family:Georgia;font-style:italic}
+.Offering   .apart img{
+	width:100px;
+	height:100px;
+	line-height:70px;
+	background:#F3F3F3;
+	border-radius:50%;
+}
+.Offering  .apart ul{line-height:250%;font-size:18px;margin-top:10px}
+
+.Offering  ul li{
+	font-weight:bold;
+	font-size:20px;
+	font-family:Georgia;
+	
+}
+.Offering  ul li span{color:#a72424;font-style:italic}
+
+.Offering   .apart i{color:#ffc107}
+/* End Offering Table */
+
+
+/*description*/
+
+.about{
+	padding-top:2%;
+	padding-bottom:3%;
+	background:#EEE;
+	margin-bottom:1%;
+	
+}
+.about h1{font-family:Georgia;color:#888}
+
+.about p{font-family:Georgia;font-style:italic;color:#888}
+
+
+.footer { background:#333;padding:15px;color:#FFF;text-align:center}
+
+.footer ul{list-style:none;padding-left:0}
+
+.footer .icons{display:inline-block;margin-right:20px}
+
+.footer .icons ul{overflow:hidden}
+
+.footer .icons ul li {float:left;margin-right:15px;}
+
+/*------------------------------------------------*/
+
+/* page search */
+.active1{background:#46b8da}
+.navbar-inverse .navbar-nav > li.active1 > a {color:#FFF}
+   
+.back
+{
+	background:url("../image/ss.jpg")no-repeat center center fixed;
+	min-height:800px;
+	background-size:cover;
+	width:100%
+	
+}
+.back .backImag{
+	background:rgba(3,3,3,.8);
+	min-height:800px;
+	color:#FFF;
+}
+
+.search{padding-top:10%}
+
+.search h2{font-family:Georgia;font-style:italic}
+
+
+.form-control {
+	  
+    width: 100%;
+    height: 1005px;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #e61818;
+    background-color: #352727;
+    background-image: none;
+    border-bottom: 1px solid #f53333;
+    border-radius: 10px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { background-color: #c74b24}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+	position: static;
+	height:5%;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Comic Sans MS;
+	font-size:17px;
+}
+
+.bootstrap-select>.dropdown-toggle{border-radius:20px}
+
+.inpt{margin-top:8%}
+
+.sub{
+	
+    padding-left: 30%;
+    text-align: center;
+    padding-right: 30%;
+    margin-top: 8%;
+    border-radius: 14px;
+    font-size: 20px;
+	font-family:Georgia;
+	font-style:italic;
+	margin-bottom:3%;
+	background:#000000;
+    border-color: #401f1f;
+}
+.btn-dark:hover {
+	color:#FFF;
+    
+}
+/*///////////////////////////////////////////////////////////////*/
+
+/* show apartment */
+
+.show{padding-top:50px;padding-bottom:50px}
+
+.background
+{
+	background:url("../image/p6.jpg")no-repeat center center fixed;
+	min-height:600px;
+	background-size:cover;
+	width:100%
+	
+}
+.background .backImage{
+	background:rgba(3,3,3,.8);
+	min-height:600px;
+	color:#FFF;
+}
+
+.show img{opacity:1;height:60%;width:70%;opacity:.7}
+.show  h2{font-family:Georgia;font-style:italic}
+.show .details{margin-top:3%}
+.show .detail{margin-top:5%}
+.show .detail p{
+	line-height:1.8;
+	font-weight:bold;
+	font-size:20px;
+	font-family:Georgia;
+	font-style:italic;
+}
+.show .detail p span{color:#a72424}
+
+.show .noApart{font-family:Georgia;font-style:italic;margin-top:40%;font-size:30px}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* add apartment */
+
+
+.contacts{
+
+	background:url("../image/add.jpg")no-repeat center center fixed;
+	min-height:600px;
+	background-size:cover;
+	width:100%
+	
+}
+
+.contacts .contact{
+	padding-top:10%;
+	background:rgba(3,3,3,.8);
+	min-height:600px;
+	color:#FFF;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-bottom: 1px solid #f53333;
+    border-radius: 15px;
+	font-family:Georgia;
+	font-style:italic;
+	margin-top:8%;
+}
+
+.contacts .sub1{
+	padding-left: 15%;
+    text-align: center;
+    padding-right: 15%;
+    margin-top: 5%;
+    border-radius: 14px;
+    font-size: 20px;
+	font-family:Georgia;
+	font-style:italic;
+	margin-bottom:3%;
+	margin-left:3%;
+	font-weight:bold;
+	font-size:20px;
+	font-family:Georgia;
+	font-style:italic
+}
+
+.contacts  .fa1{color:#d43f3a}
+
+.lead1{color:#ccb5b5;font-family:Georgia;font-style:italic;font-size:22px;font-weight:bold}
+
+
+#scroll-top{
+	width:50px;
+	height:40px;
+	background:#801a1a;
+	color:#FFF;
+	position:fixed;
+	right:15px;
+	bottom:15px;
+	text-align:center;
+	z-index:999999;
+	border-radius:8px;
+}
+
+
+.addApartment .btn{margin-top:10%}
